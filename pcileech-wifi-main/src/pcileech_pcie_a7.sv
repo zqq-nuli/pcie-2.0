@@ -78,6 +78,7 @@ module pcileech_pcie_a7(
         .dfifo                      ( dfifo_cfg                 ),        
         .ctx                        ( ctx                       ),
         .tlps_static                ( tlps_static.source        ),
+        .int_enable                 ( 1'b1 ),
         .pcie_id                    ( pcie_id                   ),  // -> [15:0]
         .base_address_register      ( base_address_register     )
     );

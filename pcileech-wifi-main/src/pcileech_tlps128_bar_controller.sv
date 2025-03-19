@@ -151,7 +151,7 @@ module pcileech_tlps128_bar_controller(
         .rd_rsp_valid          ( bar_rsp_valid[0]              )
     );
     
-    pcileech_bar_impl_loopaddr i_bar1(
+    pcileech_bar_impl_none i_bar1(
         .rst            ( rst                           ),
         .clk            ( clk                           ),
         .wr_addr        ( wr_addr                       ),
